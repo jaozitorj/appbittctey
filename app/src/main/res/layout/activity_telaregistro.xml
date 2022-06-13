@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/telalogincor"
+    android:orientation="vertical"
+    tools:context=".telaregistro">
+
+
+    <TextView
+        android:id="@+id/novida"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="CADASTRE-SE"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:textSize="45dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@id/editnomecompleto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/editnomecompleto"
+        style="@style/edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Nome Completo"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/novida"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/novida"
+        app:layout_constraintTop_toBottomOf="@id/novida" />
+
+    <EditText
+        android:id="@+id/editdigiteemail"
+        style="@style/edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/ic_email23"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editnomecompleto" />
+
+    <EditText
+        android:id="@+id/editconfirmarsenha"
+        style="@style/edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/ic_senha"
+        android:hint="Crie uma senha"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editdigiteemail" />
+
+    <EditText
+        android:id="@+id/telefone"
+        style="@style/edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/ic_telefone"
+        android:hint="Telefone"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editsenha1" />
+
+    <EditText
+        android:id="@+id/editsenha1"
+        style="@style/edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/ic_senha"
+        android:hint="Confirme sua senha"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editconfirmarsenha" />
+
+
+    <Button
+        android:id="@+id/botaoregistrarse"
+        android:layout_width="300dp"
+        android:text="REGISTRAR-SE"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/telefone"
+        app:layout_constraintTop_toBottomOf="@id/telefone"/>
+
+    <Button
+        android:id="@+id/botaovoltar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        app:layout_constraintTop_toBottomOf="@id/botaoregistrarse"
+        app:layout_constraintStart_toStartOf="@id/botaoregistrarse" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>

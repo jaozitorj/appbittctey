@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "265859998214",
+    "project_id": "aplicativo-bittc",
+    "storage_bucket": "aplicativo-bittc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265859998214:android:6195877ea6dbb111bd5987",
+        "android_client_info": {
+          "package_name": "com.example.video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265859998214-tstcpduect1o8b5qcscqua9pdkt3cd86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUY1nqCeKHQLn9d2YbvKlrP0xVHZNKKuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265859998214-tstcpduect1o8b5qcscqua9pdkt3cd86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telalogincor"
+    tools:context=".segundatela">
+
+
+    <TextView
+        android:id="@+id/text_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/categorias"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:textStyle="bold"
+
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"/>
+
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/image_mobile"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@id/text_categorias"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:id="@+id/container_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingTop="15dp"
+        android:background="@drawable/shape_container_categorias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_finanças"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="@color/cor_investimentos"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="30dp"
+
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="Cards"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:paddingRight="150dp"
+
+                        />
+
+ </androidx.cardview.widget.CardView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_tarefas"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="@color/cor_noticias"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="30dp"
+
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="Exercicios"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:paddingRight="150dp"
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_video_aulas"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="@color/cor_musicas"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="30dp"
+
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="Aulas"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:paddingRight="150dp"
+                        />
+
+
+                        />
+
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_suporte_e_ajudaonline"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="@color/cor_musicas"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="30dp"
+
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="GAME"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:paddingRight="150dp"
+
+                        /><![CDATA[
+
+                        />
+
+                    ]]>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
+
+                    />
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_Configuraçoesdaconta"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="@color/cor_musicas"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="30dp"
+
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="Configuraçao da conta"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:paddingRight="100dp"
+
+                        /><![CDATA[
+
+
+                        />
+
+                    ]]>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
+
+                    />
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/deslogar"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Deslogar"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/text_categorias"
+        android:translationX="290dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

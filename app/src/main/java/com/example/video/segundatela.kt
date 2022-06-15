@@ -26,6 +26,12 @@ class segundatela : AppCompatActivity() {
         setContentView(mBinding.root)
         supportActionBar!!.hide()
 
+        mBinding.botaoexercicios.setOnClickListener {
+            val voltarexercicios = Intent(this, exercicios::class.java)
+            startActivity(voltarexercicios)
+            finish()
+        }
+
         mBinding.deslogar.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             val voltarMainActivity = Intent(this, MainActivity::class.java)

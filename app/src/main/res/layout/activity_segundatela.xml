@@ -96,6 +96,7 @@
                     >
 
                     <Button
+                        android:id="@+id/botaoexercicios"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:text="Exercicios"

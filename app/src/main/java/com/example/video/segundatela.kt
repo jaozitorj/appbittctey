@@ -14,6 +14,7 @@ import org.w3c.dom.Text
 
 class segundatela : AppCompatActivity() {
 
+
     private lateinit var mBinding: ActivitySegundatelaBinding
 
     private var mWidth: Int? = null

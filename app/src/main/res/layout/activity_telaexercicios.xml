@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telalogincor"
+    tools:context=".telaexercicios">
+
+
+    <ImageButton
+        android:id="@+id/exercicio1"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:src="@color/black"
+        android:translationY="70dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio2"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:src="@drawable/image_mobile"
+        android:translationY="140dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio3"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:src="@color/black"
+        android:translationY="210dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio4"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:src="@drawable/image_mobile"
+        android:translationY="280dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio5"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:src="@color/black"
+        android:translationY="350dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio6"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:src="@drawable/image_mobile"
+        android:translationY="420dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio7"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:src="@color/black"
+        android:translationY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio8"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:translationY="560dp"
+        app:srcCompat="@drawable/image_mobile"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio9"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:translationY="630dp"
+        app:srcCompat="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/exercicio10"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:translationY="700dp"
+        app:srcCompat="@drawable/image_mobile"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Nivel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel 1"
+        android:textSize="40dp"
+        android:translationY="10dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="25dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

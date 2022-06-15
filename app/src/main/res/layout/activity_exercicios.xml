@@ -99,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
-        android:text="Nivel 0"
+        android:text="Nivel 9"
         android:translationX="280dp"
         android:translationY="450dp"
         tools:ignore="MissingConstraints" />

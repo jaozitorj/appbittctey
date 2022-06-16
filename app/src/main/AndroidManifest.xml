@@ -16,49 +16,52 @@
         android:theme="@style/Theme.Video"
         tools:targetApi="31">
         <activity
+            android:name=".telaJogos"
+            android:exported="false" />
+        <activity
             android:name=".telaexercicio12"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio11"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio10"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio9"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio8"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio7"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".listaexercicio6"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio5"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio4"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicio3"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".telaexercicios2"
             android:exported="false"
-            android:parentActivityName=".exercicios"/>
+            android:parentActivityName=".exercicios" />
         <activity
             android:name=".exercicios"
             android:exported="false"

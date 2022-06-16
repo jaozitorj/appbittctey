@@ -32,6 +32,13 @@ class segundatela : AppCompatActivity() {
             finish()
         }
 
+        mBinding.botaogame.setOnClickListener {
+            val irparaogame = Intent(this, telaJogos::class.java)
+            startActivity(irparaogame)
+            finish()
+        }
+
+
         mBinding.deslogar.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             val voltarMainActivity = Intent(this, MainActivity::class.java)

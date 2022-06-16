@@ -32,7 +32,8 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@id/imageView" />
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editsenha"
@@ -47,7 +48,8 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@id/editemail" />
+        app:layout_constraintTop_toBottomOf="@id/editemail"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/editmostrarsenha"
@@ -91,6 +93,7 @@
         android:layout_height="22dp"
         android:layout_marginTop="20sp"
         android:indeterminate="true"
+        android:translationY="55dp"
         android:indeterminateTint="@color/white"
         android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@id/signInButton"
@@ -113,11 +116,12 @@
         app:layout_constraintTop_toBottomOf="@id/progressbar"
         tools:ignore="MissingConstraints" />
 
-    <EditText
+    <TextView
         android:id="@+id/OU"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="125dp"
+        android:layout_marginLeft="140dp"
+        android:translationY="20dp"
         android:text="OU"
         app:layout_constraintStart_toStartOf="@id/btregistrar"
         app:layout_constraintTop_toBottomOf="@id/btregistrar" />
@@ -126,6 +130,7 @@
         android:id="@+id/signInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:translationY="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

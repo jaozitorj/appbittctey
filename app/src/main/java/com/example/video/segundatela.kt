@@ -45,6 +45,11 @@ class segundatela : AppCompatActivity() {
             startActivity(voltarMainActivity)
             finish()
         }
+        mBinding.botaocards.setOnClickListener {
+            val voltarexercicios = Intent(this, cards::class.java)
+            startActivity(voltarexercicios)
+            finish()
+        }
 
         val metrics = DisplayMetrics()
         val result = windowManager

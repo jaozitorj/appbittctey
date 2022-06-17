@@ -16,8 +16,17 @@
         android:theme="@style/Theme.Video"
         tools:targetApi="31">
         <activity
-            android:name=".Cards"
-            android:exported="false" />
+            android:name=".QuizResult"
+            android:exported="false"
+            android:parentActivityName="."/>
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false"
+            android:parentActivityName=".cards"/>
+        <activity
+            android:name=".cards"
+            android:exported="false"
+            android:parentActivityName=".segundatela"/>
         <activity
             android:name=".teladejogos"
             android:exported="false"

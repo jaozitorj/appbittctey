@@ -33,7 +33,7 @@ class segundatela : AppCompatActivity() {
         }
 
         mBinding.botaogame.setOnClickListener {
-            val irparaogame = Intent(this, telaJogos::class.java)
+            val irparaogame = Intent(this, teladejogos::class.java)
             startActivity(irparaogame)
             finish()
         }

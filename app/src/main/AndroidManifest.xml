@@ -16,8 +16,12 @@
         android:theme="@style/Theme.Video"
         tools:targetApi="31">
         <activity
-            android:name=".telaJogos"
+            android:name=".Cards"
             android:exported="false" />
+        <activity
+            android:name=".teladejogos"
+            android:exported="false"
+            android:parentActivityName=".segundatela" />
         <activity
             android:name=".telaexercicio12"
             android:exported="false"

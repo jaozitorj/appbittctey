@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/telalogincor"
-    tools:context=".telaJogos">
+    tools:context=".teladejogos">
 
     <TextView
         android:id="@+id/Jogos"

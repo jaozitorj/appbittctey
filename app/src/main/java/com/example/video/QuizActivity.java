@@ -159,7 +159,5 @@ public class QuizActivity extends AppCompatActivity {
         quizTimer.purge();
         quizTimer.cancel();
 
-        startActivity(new Intent(QuizActivity.this, cards.class));
-        finish();
     }
 }

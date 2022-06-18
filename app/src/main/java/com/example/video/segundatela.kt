@@ -26,6 +26,12 @@ class segundatela : AppCompatActivity() {
         setContentView(mBinding.root)
         supportActionBar!!.hide()
 
+        mBinding.botaocards.setOnClickListener {
+            val irparalistacards = Intent(this, listaunidade_cards::class.java)
+            startActivity(irparalistacards)
+            finish()
+        }
+
         mBinding.botaoexercicios.setOnClickListener {
             val voltarexercicios = Intent(this, exercicios::class.java)
             startActivity(voltarexercicios)
@@ -43,11 +49,6 @@ class segundatela : AppCompatActivity() {
             FirebaseAuth.getInstance().signOut()
             val voltarMainActivity = Intent(this, MainActivity::class.java)
             startActivity(voltarMainActivity)
-            finish()
-        }
-        mBinding.botaocards.setOnClickListener {
-            val voltarexercicios = Intent(this, cards::class.java)
-            startActivity(voltarexercicios)
             finish()
         }
 

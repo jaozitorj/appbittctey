@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telalogincor"
+    tools:context=".cards_unidade1">
+
+    <ImageView
+        android:id="@+id/cardball"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/card_ball"
+        android:translationY="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:text="Cards Unidade 1"
+        android:textSize="40dp"
+        android:translationX="60dp"
+        android:translationY="10dp"
+        android:textStyle="bold"/>
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/botaocardsbotao"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:text="Proximo"
+       android:translationY="600dp"
+       android:translationX="110dp"
+       android:background="@drawable/round_back_green20"
+       tools:ignore="MissingConstraints" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Ball"
+           android:textColor="@color/white"
+           android:translationY="450dp"
+           android:textSize="40dp"
+           android:translationX="160dp"
+           android:textStyle="bold"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

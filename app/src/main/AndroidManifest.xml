@@ -16,17 +16,21 @@
         android:theme="@style/Theme.Video"
         tools:targetApi="31">
         <activity
+            android:name=".listaunidade_cards"
+            android:exported="false"
+            android:parentActivityName=".segundatela"/>
+        <activity
+            android:name=".cards_unidade1"
+            android:exported="false"
+            android:parentActivityName=".listaunidade_cards"/>
+        <activity
             android:name=".QuizResult"
             android:exported="false"
-            android:parentActivityName="."/>
+            android:parentActivityName=".telaexercicios" />
         <activity
             android:name=".QuizActivity"
             android:exported="false"
-            android:parentActivityName=".cards"/>
-        <activity
-            android:name=".cards"
-            android:exported="false"
-            android:parentActivityName=".segundatela"/>
+            android:parentActivityName=".telaexercicios" />
         <activity
             android:name=".teladejogos"
             android:exported="false"

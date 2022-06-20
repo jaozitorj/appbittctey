@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:background="@drawable/telalogincor"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".flappy">
 
     <ImageView
         android:id="@+id/imageView"

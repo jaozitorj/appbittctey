@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.video">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -15,14 +15,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Video"
         tools:targetApi="31">
+
+        <activity
+            android:name=".Flappy"
+            android:exported="false"
+            android:parentActivityName=".teladejogos" />
         <activity
             android:name=".listaunidade_cards"
             android:exported="false"
-            android:parentActivityName=".segundatela"/>
+            android:parentActivityName=".segundatela" />
         <activity
             android:name=".cards_unidade1"
             android:exported="false"
-            android:parentActivityName=".listaunidade_cards"/>
+            android:parentActivityName=".listaunidade_cards" />
         <activity
             android:name=".QuizResult"
             android:exported="false"
@@ -106,6 +111,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".GameActivity"
+            android:exported="true"
+            android:parentActivityName=".teladejogos" />
+        <activity
+            android:name=".OtherActivity"
+            android:exported="true"
+            android:parentActivityName=".teladejogos" >
+            <intent-filter>
+                <action android:name="android.intent.action.OTHER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

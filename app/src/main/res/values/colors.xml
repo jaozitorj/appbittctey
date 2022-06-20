@@ -17,4 +17,6 @@
     <color name="cor_noticias">#BF8000FF</color>
     <color name="cor_musicas">#BF003FFF</color>
     <color name="cor_videos">#00DC84</color>
+    <color name="black_shade1">#292D36</color>
+
 </resources>

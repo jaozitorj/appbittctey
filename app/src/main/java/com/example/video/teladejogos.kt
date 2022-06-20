@@ -14,10 +14,7 @@ class teladejogos : AppCompatActivity() {
         setContentView(mBinding.root)
 
         mBinding.jogoflippybird.setOnClickListener {
-            val voltarexercicios = Intent(this, Flappy::class.java)
-            startActivity(voltarexercicios)
-            finish()
-        }
 
     }
+         }
 }
